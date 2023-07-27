@@ -1,9 +1,12 @@
 fn main() {
-    let name: String = String::from("Jordan");
+    let is_true: bool = true;
 
-    if name != "Jordan"{
-        println!("Plese go out!");
-    } else if name == "Jordan" {
-        println!("Come in sir Jordan!");
-    }
+    let num = if is_true {
+        1
+    } else {
+        0
+    };
+
+    println!("{}", num)
 }
+
