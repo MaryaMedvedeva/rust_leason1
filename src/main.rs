@@ -4,9 +4,7 @@ fn main() {
     println!("Number is {}", num);
 }
 
-// integer 1 6 7 125 231 333
-// float 1.25 3.678 237.0 7.45
-
+// u8 u16 u32 u64 u128 usize
 // i8 i16 i32 i64 i128 isize
 
-// mutable
+// -3 -7 -124 -223
