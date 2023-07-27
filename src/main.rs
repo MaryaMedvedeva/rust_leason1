@@ -1,4 +1,10 @@
 fn main() {
-    let Surname = String::from("Zelensky");
-    println!("{}", Surname);
+// char
+// bool - logic
+
+    let symbol: char = 'i';
+
+    let text = String::from("Some text here...");
+    println!("{}", text);
+    println!("{}", symbol)
 }
