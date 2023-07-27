@@ -1,7 +1,6 @@
 fn main() {
-    let mut num: f64 = 345.73;
-    num = 672.491;
-    println!("Number is {}", num);
+    let mut name: &str = "Alex";
+    println!("{}", name)
 }
 
 // u8 u16 u32 u64 u128 usize
