@@ -1,10 +1,13 @@
 fn main() {
-// char
-// bool - logic
+    // char
+    // bool - logic(true, false)
+    // 5 > 3 true
+    // 9 < 6 false
+    // 8 == 8 true
+    // 7 == 4 false
 
-    let symbol: char = 'i';
+    let logic: bool = true;
+    let logic1 = false;
 
-    let text = String::from("Some text here...");
-    println!("{}", text);
-    println!("{}", symbol)
+    println!("{}, {}", logic, logic1);
 }
