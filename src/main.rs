@@ -1,5 +1,5 @@
 fn main() {
-    let age:i8 = 23;
+    let mut age:i8 = 23;
     age = 25;
     println!("My age is {}", age);
 }
