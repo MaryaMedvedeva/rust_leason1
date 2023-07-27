@@ -1,8 +1,9 @@
 fn main() {
-    let num = 7;
-    // OR - ||  AND - &&
+    let name: String = String::from("Jane");
 
-    if num > 10 && num < 50 {
-        println!("COOL!");
+    if name == "Jane"{
+        println!("Hi, Jane");
+    } else if name == "John"{
+        println!("Hi, John!");
     }
 }
