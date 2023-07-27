@@ -1,9 +1,9 @@
 fn main() {
-    let name: String = String::from("Jane");
+    let name: String = String::from("Jordan");
 
-    if name == "Jane"{
-        println!("Hi, Jane");
-    } else if name == "John"{
-        println!("Hi, John!");
+    if name != "Jordan"{
+        println!("Plese go out!");
+    } else if name == "Jordan" {
+        println!("Come in sir Jordan!");
     }
 }
