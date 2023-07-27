@@ -1,13 +1,5 @@
 fn main() {
-    // char
-    // bool - logic(true, false)
-    // 5 > 3 true
-    // 9 < 6 false
-    // 8 == 8 true
-    // 7 == 4 false
-
-    let logic: bool = true;
-    let logic1 = false;
-
-    println!("{}, {}", logic, logic1);
+    let mut age = 13;
+    let mut name = String::from("Hlieb");
+    println!("Hi, my name is {}, i`m {} years old", name, age)
 }
