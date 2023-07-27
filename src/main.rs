@@ -1,6 +1,6 @@
 fn main() {
-    let mut name: &str = "Alex";
-    println!("{}", name)
+    let mut name = String::from("Sasha");
+    println!("My name is {}", name)
 }
 
 // u8 u16 u32 u64 u128 usize
