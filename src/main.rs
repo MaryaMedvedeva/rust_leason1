@@ -3,13 +3,8 @@ fn main() {
     // while
     // for
 
-    let mut num = 0;
-
-    while num <= 100 {
-        if num % 2 == 0{
-        println!("{}", num);
-        }
-    num += 1;
+    for i in 0..101 {
+        println!("{}", i);
     }
 }
 
