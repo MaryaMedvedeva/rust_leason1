@@ -3,8 +3,11 @@ fn main() {
     // while
     // for
 
+    let mut num = 0;
+
     loop {
-        println!("Loop ...");
+        println!("{}", num);
+        num += 1;
     }
 }
 
