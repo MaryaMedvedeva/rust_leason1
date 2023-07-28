@@ -1,15 +1,19 @@
 fn main() {
     // match
 
-    let numx =3;
+    let is_old = false;
 
-    let num = match numx {
-        2 => 1,
-        3 => 10,
-        3..=10 => 7,
-        _ => 0
-    };
+    let mut redy_num: String = String::new();
 
-    println!("{}", num);
+    match is_old {
+       true => {
+            redy_num = String::from("Come in!");
+        },
+        false => {
+            redy_num = String::from("Go out!")
+        },
+    }
+
+    println!("{}", redy_num);
 }
 
