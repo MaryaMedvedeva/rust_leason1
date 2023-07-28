@@ -5,9 +5,11 @@ fn main() {
 
     let mut num = 0;
 
-    while num <= 500 {
+    while num <= 100 {
+        if num % 2 == 0{
         println!("{}", num);
-        num += 1;
+        }
+    num += 1;
     }
 }
 
