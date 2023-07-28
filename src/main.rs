@@ -1,12 +1,10 @@
 fn main() {
-    let is_true: bool = true;
+    // loop
+    // while
+    // for
 
-    let num = if is_true {
-        1
-    } else {
-        0
-    };
-
-    println!("{}", num)
+    loop {
+        println!("Loop ...");
+    }
 }
 
