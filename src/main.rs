@@ -5,12 +5,7 @@ fn main() {
 
     let mut num = 0;
 
-    loop {
-
-        if num == 100 {
-            break;
-        }
-
+    while num <= 500 {
         println!("{}", num);
         num += 1;
     }
