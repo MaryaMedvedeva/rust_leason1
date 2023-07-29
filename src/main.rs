@@ -1,19 +1,21 @@
+use std::io;
+
 fn main() {
-    // match
+    // io
+    // i - input
+    // o - output
 
-    let is_old = false;
+    let mut name = String::new();
 
-    let mut redy_num: String = String::new();
+    println!("PLese, write your name: ");
 
-    match is_old {
-       true => {
-            redy_num = String::from("Come in!");
-        },
-        false => {
-            redy_num = String::from("Go out!")
-        },
+    match  io::stdin().read_line(&mut name){
+         Ok(_) => {
+            println!("Hello, {}", name);
+         },
+        Err(e) => {
+            println!("PROGRAM ERROR - {}", e);
+        }
     }
-
-    println!("{}", redy_num);
 }
 
